@@ -3,26 +3,18 @@ package ISF;
 import java.sql.*;  
 
 /**
- * For this class to work, you're going to need the Microsoft JDBC driver
- * added to your **project's** "Libraries" folder.
  * 
- * Fet it here: https://docs.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-2017
- * 
- * In addition, you MUST update the username and password in the static 
- * constants of this class in order for this connection class work.
- * 
- * Other than updating your username and password, you should not need to edit this file.
- * 
- * @author tagregory
+ * @author tagregory, ashok133, pallavi, connor
+ *
  */
 public class DbConnection {
     
     static private Connection theConnection = null;
     
     // Update these, or it won't work.
-    static private String DB_USER = "asmpatel_1763816";    // Your user name here
-    static private String DB_PASSWORD = "9yIKj2m";           // Your password here
-    static private String DB_SERVER = "db.webteach.iu.edu"; // Shouldn't need to change these
+    static private String DB_USER = "asmpatel_1763816";
+    static private String DB_PASSWORD = "9yIKj2m";
+    static private String DB_SERVER = "db.webteach.iu.edu";
     /**
      * Private constructor, as we'll only use the static method
      */

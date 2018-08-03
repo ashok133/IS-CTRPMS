@@ -44,7 +44,7 @@ public class FileReaderApp {
         }
     }
 
-    public List<String> readContents(String file) {
+    public List<String> readContents(String file){
 
         System.out.println("This code looks here for files by default:");
         System.out.println(FileAdapter.getDefaultPath());
@@ -66,9 +66,10 @@ public class FileReaderApp {
 
         // Now print the file to demonstrate we have it
         System.out.println("FILE CONTENTS:");
+        assert lines != null;
         for(String theLine : lines) {
             System.out.println(theLine);
-            System.out.println(theLine.getClass().getName());
+//            System.out.println(theLine.getClass().getName());
         }
 
         return lines;
