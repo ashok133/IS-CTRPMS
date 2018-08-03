@@ -1,2 +1,2 @@
-# ISF-Team3
-Capstone Project for MSIS Technology Bootcamp - Client Training Registration System
+# IS-CTRPMS
+Capstone Project for MSIS Technology Bootcamp - Client Training Registration and Program Management System
